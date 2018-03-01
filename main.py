@@ -1,3 +1,5 @@
+#Hakan GENC
+
 import numpy as np
 import pandas as pd
 from sklearn.linear_model import LinearRegression as lr
@@ -25,6 +27,8 @@ a = np.arange(150) # We define an array size of 150.
 plt.scatter(X,Y) #We draw the points of X and Y values on the graph.
 plt.scatter(a,m*a+b, c="red",marker=">")
 plt.show()
+
+
 
 
 
