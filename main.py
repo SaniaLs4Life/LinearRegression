@@ -5,8 +5,8 @@ import matplotlib.pyplot as plt
 
 data = pd.read_csv("linear.csv")
 
-X = data["metrekare"]
-Y = data["fiyat"]
+X = data["squaremeters"]
+Y = data["price"]
 
 X = np.array(X).reshape(len(X),1)
 Y = np.array(Y).reshape(len(Y),1)
