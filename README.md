@@ -1,6 +1,6 @@
 # LinearRegression
 
-#Installation
+#Installation <br>
 #numpy <br />
 #pandas <br />
 #sklearn <br />
